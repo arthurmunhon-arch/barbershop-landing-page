@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Barber | Barbearia Premium</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght=400;600;700&family=Montserrat:wght=300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">ROYAL <span>BARBER</span></a>
+            
+            <nav class="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">Sobre</a>
+                <a href="#services" class="nav-link">Serviços</a>
+                <a href="#barbers" class="nav-link">Barbeiros</a>
+                <a href="#gallery" class="nav-link">Galeria</a>
+                <a href="#testimonials" class="nav-link">Depoimentos</a>
+                <a href="#contact" class="nav-link">Contato</a>
+            </nav>
+
+            <a href="#contact" class="btn btn-gold btn-header">Agendar Horário</a>
+
+            <button class="menu-toggle" aria-label="Abrir Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content scroll-reveal">
+            <span class="hero-subtitle">Tradição, Elegância & Estilo</span>
+            <h1 class="hero-title">Seu estilo começa aqui</h1>
+            <p class="hero-description">Muito mais que um corte de cabelo. Uma experiência premium sob medida para o homem moderno que exige o melhor.</p>
+            <a href="#contact" class="btn btn-gold btn-large">Agende Sua Experiência</a>
+        </div>
+    </section>
+
+    <section id="about" class="about-section section-padding">
+        <div class="container about-container">
+            <div class="about-img scroll-reveal side-left">
+                <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?q=80&w=800" alt="Ambiente Royal Barber">
+            </div>
+            <div class="about-text scroll-reveal side-right">
+                <span class="section-subtitle">Nossa História</span>
+                <h2 class="section-title">O Padrão Royal</h2>
+                <p>Fundada com o propósito de resgatar a essência da barbearia clássica combinada com as técnicas mais modernas do mercado, a Royal Barber é o refúgio ideal para o homem de negócios e cavalheiros de bom gosto.</p>
+                <p>Nosso ambiente foi planejado para oferecer o máximo conforto, desde a nossa seleção de cafés e cervejas artesanais até o atendimento personalizado de nossos mestres barbeiros.</p>
+                
+                <div class="about-highlights">
+                    <div class="highlight-item">
+                        <i class="fa-solid fa-gem"></i>
+                        <span>Atendimento Premium</span>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="fa-solid fa-chair"></i>
+                        <span>Ambiente Exclusivo</span>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="fa-solid fa-award"></i>
+                        <span>Profissionais Renomados</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services-section section-padding bg-alt">
+        <div class="container">
+            <div class="text-center scroll-reveal">
+                <span class="section-subtitle">O Que Fazemos de Melhor</span>
+                <h2 class="section-title">Nossos Serviços</h2>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card scroll-reveal">
+                    <div class="service-icon"><i class="fa-solid fa-scissors"></i></div>
+                    <h3>Corte Masculino</h3>
+                    <p>Cortes clássicos ou modernos, lavagem premium com massagem capilar e finalização com pomadas importadas.</p>
+                    <span class="service-price">R$ 70</span>
+                </div>
+                <div class="service-card scroll-reveal">
+                    <div class="service-icon"><i class="fa-solid fa-razor"></i></div>
+                    <h3>Barba Real</h3>
+                    <p>Barba feita à navalha com técnica de toalha quente, óleos hidratantes e massagem facial relaxante.</p>
+                    <span class="service-price">R$ 50</span>
+                </div>
+                <div class="service-card scroll-reveal">
+                    <div class="service-icon"><i class="fa-solid fa-mustache"></i></div>
+                    <h3>Corte + Barba</h3>
+                    <p>O combo completo para renovar o seu visual com desconto exclusivo e o cuidado completo que você merece.</p>
+                    <span class="service-price">R$ 110</span>
+                </div>
+                <div class="service-card scroll-reveal">
+                    <div class="service-icon"><i class="fa-solid fa-sparkles"></i></div>
+                    <h3>Tratamentos Especiais</h3>
+                    <p>Selagem, pigmentação de barba, hidratação profunda e terapia capilar contra queda e oleosidade.</p>
+                    <span class="service-price">A partir de R$ 40</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="barbers" class="barbers-section section-padding">
+        <div class="container">
+            <div class="text-center scroll-reveal">
+                <span class="section-subtitle">Especialistas no Assunto</span>
+                <h2 class="section-title">Nossos Barbeiros</h2>
+            </div>
+
+            <div class="barbers-grid">
+                <div class="barber-card scroll-reveal">
+                    <div class="barber-img">
+                        <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=400" alt="Augusto Silva">
+                    </div>
+                    <div class="barber-info">
+                        <h3>Augusto Silva</h3>
+                        <p>Mestre Barbeiro & Cortes Clássicos</p>
+                    </div>
+                </div>
+                <div class="barber-card scroll-reveal">
+                    <div class="barber-img">
+                        <img src="https://images.unsplash.com/photo-1600486913747-55e5470d6f40?q=80&w=400" alt="Marcus Viana">
+                    </div>
+                    <div class="barber-info">
+                        <h3>Marcus Viana</h3>
+                        <p>Visagista & Especialista em Barbas</p>
+                    </div>
+                </div>
+                <div class="barber-card scroll-reveal">
+                    <div class="barber-img">
+                        <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=400" alt="Lucas Ramos">
+                    </div>
+                    <div class="barber-info">
+                        <h3>Lucas Ramos</h3>
+                        <p>Hair Stylist & Cortes Modernos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery-section section-padding bg-alt">
+        <div class="container">
+            <div class="text-center scroll-reveal">
+                <span class="section-subtitle">Portfólio Real</span>
+                <h2 class="section-title">Galeria de Estilos</h2>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item scroll-reveal"><img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?q=80&w=500" alt="Corte Degradê"></div>
+                <div class="gallery-item scroll-reveal"><img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?q=80&w=500" alt="Barboterapia Premium"></div>
+                <div class="gallery-item scroll-reveal"><img src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?q=80&w=500" alt="Tesoura Alinhada"></div>
+                <div class="gallery-item scroll-reveal"><img src="https://images.unsplash.com/photo-1512864084360-7c0c4d0a0845?q=80&w=500" alt="Finalização com Pomada"></div>
+                <div class="gallery-item scroll-reveal"><img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?q=80&w=500" alt="Máquina de Acabamento"></div>
+                <div class="gallery-item scroll-reveal"><img src="https://images.unsplash.com/photo-1504198266287-1659872e6590?q=80&w=500" alt="Cabelo Clássico"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials-section section-padding">
+        <div class="container">
+            <div class="text-center scroll-reveal">
+                <span class="section-subtitle">Opinião de Quem Frequenta</span>
+                <h2 class="section-title">Depoimentos dos Clientes</h2>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card scroll-reveal">
+                    <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                    <p>"Atendimento impecável! O ambiente é extremamente refinado e o café cortesia é excelente. O barbeiro Augusto entendeu perfeitamente o meu estilo. Recomendo de olhos fechados."</p>
+                    <div class="client-info">
+                        <h4>Rodrigo Mello</h4>
+                        <span>Empresário</span>
+                    </div>
+                </div>
+                <div class="testimonial-card scroll-reveal">
+                    <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                    <p>"Melhor toalha quente e barboterapia que já experimentei. É um verdadeiro ritual de relaxamento. O Marcus é um artista na navalha!"</p>
+                    <div class="client-info">
+                        <h4>Guilherme Santos</h4>
+                        <span>Advogado</span>
+                    </div>
+                </div>
+                <div class="testimonial-card scroll-reveal">
+                    <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                    <p>"Fazer o cabelo e a barba na Royal virou meu compromisso quinzenal sagrado. Pontualidade britânica, playlist excelente e resultado sempre perfeito."</p>
+                    <div class="client-info">
+                        <h4>Thiago Oliveira</h4>
+                        <span>Engenheiro de Software</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section section-padding bg-alt">
+        <div class="container contact-container">
+            <div class="contact-info scroll-reveal side-left">
+                <span class="section-subtitle">Onde Estamos</span>
+                <h2 class="section-title">Venha Nos Visitar</h2>
+                
+                <div class="contact-details">
+                    <div class="detail-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div>
+                            <h4>Endereço</h4>
+                            <p>Av. Paulista, 1234 - Jardins, São Paulo - SP</p>
+                        </div>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <div>
+                            <h4>Telefone</h4>
+                            <p>(11) 3456-7890</p>
+                        </div>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fa-solid fa-clock"></i>
+                        <div>
+                            <h4>Horário de Funcionamento</h4>
+                            <p>Segunda a Sexta: 09h às 21h<br>Sábado: 09h às 19h</p>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="https://wa.me/551134567890" target="_blank" class="btn btn-whatsapp">
+                    <i class="fa-brands fa-whatsapp"></i> Agendar via WhatsApp
+                </a>
+            </div>
+
+            <div class="contact-map scroll-reveal side-right">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1975765085694!2d-46.6564943!3d-23.5613497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0605bb%3A0x6593d8b0c15e3c83!2sAv.%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <p class="copyright">© 2026 Royal Barber. Todos os direitos reservados. Desenvolvido com Elegância.</p>
+            <div class="social-links">
+                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
